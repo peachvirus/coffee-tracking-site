@@ -15,6 +15,16 @@ const Navbar = () => {
                     backgroundColor: '#a76d7e',
                     borderRadius: '8px'
                 }}>New Log</Link>
+                <Link to="/sign-up" style={{
+                    color: "white",
+                    backgroundColor: '#a76d7e',
+                    borderRadius: '8px'
+                }}>Sign Up</Link>
+                <Link to="/sign-in" style={{
+                    color: "white",
+                    backgroundColor: '#a76d7e',
+                    borderRadius: '8px'
+                }}>Sign In</Link>
             </div>
         </nav>
      );

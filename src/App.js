@@ -22,6 +22,12 @@ function App() {
               <Route path="/blogs/:id">
                 <BlogDetails />
               </Route>
+              <Route path="/sign-in">
+                <SignIn />
+              </Route>
+              <Route path="/sign-up">
+                <SignUp />
+              </Route>
               <Route path="*">
                 <NotFound />
               </Route>
