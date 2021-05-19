@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 const Create = () => {
    const [title, setTitle] = useState(' ');
    const [body, setBody] = useState(' ');
-   const [author, setAuthor] = useState('Mario');
+   const [author, setAuthor] = useState(' ');
    const [isPending, setIsPending] = useState(false);
    const history = useHistory();
 
@@ -29,20 +29,20 @@ const Create = () => {
       <div className="create">
          <h2>Add a New Log</h2>
          <form onSubmit={handleSubmit}>
-            <label>Blog Title:</label>
+            <label>Log Title:</label>
             <input
                type="text"
                required
                value={title}
                onChange={(e) => setTitle(e.target.value)}
             />
-            <label>Blog Body:</label>
+            <label>Log Body:</label>
             <textarea
                required
                value={body}
                onChange={(e) => setBody(e.target.value)}
             ></textarea>
-            <label>Blog Author:</label>
+            <label>Log Author:</label>
             <select
                value={author}
                onChange={(e) => setAuthor(e.target.value)}
