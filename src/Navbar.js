@@ -15,7 +15,10 @@ const Navbar = () => {
                     backgroundColor: '#a76d7e',
                     borderRadius: '8px'
                 }}>New Log</Link>
-                <Link to="/sign-up" style={{
+
+                {/* will work on this later */}
+                
+                {/*<Link to="/sign-up" style={{
                     color: "white",
                     backgroundColor: '#a76d7e',
                     borderRadius: '8px'
@@ -25,6 +28,12 @@ const Navbar = () => {
                     backgroundColor: '#a76d7e',
                     borderRadius: '8px'
                 }}>Sign In</Link>
+                <Link to="/sign-out" style={{
+                    color: "white",
+                    backgroundColor: '#a76d7e',
+                    borderRadius: '8px'
+                }}>Sign Out</Link>*/}
+
             </div>
         </nav>
      );

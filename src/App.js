@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import SignIn from './wip components/SignIn';
+import SignUp from './wip components/SignUp';
+import SignOut from './wip components/SignOut';
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
               </Route>
               <Route path="/sign-up">
                 <SignUp />
+              </Route>
+              <Route path="/sign-out">
+                <SignOut />
               </Route>
               <Route path="*">
                 <NotFound />

@@ -1,3 +1,11 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "etet",
+      "body": " etete",
+      "drink": "Latte (30 mg of caffiene)",
+      "author": "Peach",
+      "id": 1
+    }
+  ]
 }
